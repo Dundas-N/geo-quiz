@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title> Geography Quiz</title>
+</head>
+<body>
+    
+    <section class="startPage">
+        <h1>Let's Test Your Geography Skills!</h1>
+        <button class="startquiz" id="startQuiz">START</button>
+    </section>
+
+    <section class="displayQuiz" id="displayQuiz">
+        <div class="quiz" id="quiz">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+        </div>
+
+        <footer>
+            <p id="progress">Question x of y.</p>
+        </footer>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
